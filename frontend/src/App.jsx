@@ -293,7 +293,7 @@ function App() {
           <People sx={{ mr: 1.5 }} />
 
           <Typography
-            variant="h6"
+            variant="h5"
             sx={{
               fontWeight: 700,
               flexGrow: 1,
