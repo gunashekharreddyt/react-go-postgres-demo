@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+}
+
+.app-background {
+  min-height: 100vh;
+  background: linear-gradient(135deg,
+      #f4f7fb 0%,
+      #eef3fa 100%);
+}
+
+.top-bar {
+  background: linear-gradient(90deg,
+      #172033 0%,
+      #263653 100%) !important;
+}
+
+.add-button {
+  background: #ffffff !important;
+  color: #172033 !important;
+  font-weight: 700 !important;
+}
+
+.add-button:hover {
+  background: #edf1f7 !important;
+}
+
+.dashboard-card {
+  border-radius: 18px !important;
+  box-shadow: 0 12px 35px rgba(23, 32, 51, 0.08) !important;
+}
+
+.loading-container {
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-state {
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.user-table th {
+  text-align: left;
+  padding: 18px 14px;
+  font-size: 13px;
+  color: #667085;
+  background: #f8fafc;
+  border-bottom: 1px solid #e4e7ec;
+  white-space: nowrap;
+}
+
+.user-table td {
+  padding: 18px 14px;
+  border-bottom: 1px solid #eef1f5;
+  color: #344054;
+  white-space: nowrap;
+}
+
+.user-table tbody tr:hover {
+  background: #fafcff;
+}
+
+.user-table tbody tr:last-child td {
+  border-bottom: none;
+}

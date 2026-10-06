@@ -1,0 +1,24 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Go
+backend/*.exe
+backend/*.out
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
